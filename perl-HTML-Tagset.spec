@@ -3,7 +3,7 @@ Summary:	HTML-Tagset perl module
 Summary(pl):	Modu³ perla HTML-Tagset
 Name:		perl-HTML-Tagset
 Version:	3.03
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
