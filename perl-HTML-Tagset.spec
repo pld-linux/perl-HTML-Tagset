@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	HTML
-%define	pnam	Tagset
+%define		pdir	HTML
+%define		pnam	Tagset
 Summary:	This module contains data tables useful in dealing with HTML
 Summary(cs):	Modul datových tabulek pro práci s HTML
 Summary(da):	Dette modul indeholder datatabeller som er nyttiga ved behandling af HTML
