@@ -1,3 +1,7 @@
+#
+# Conditional build:
+%bcond_without	tests	# do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	HTML
 %define	pnam	Tagset
@@ -21,7 +25,7 @@ Release:	8
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5: 47c56ab15771fac1a6fdfcbf8bff4288
+# Source0-md5:	47c56ab15771fac1a6fdfcbf8bff4288
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 5.6
 BuildArch:	noarch
@@ -79,15 +83,16 @@ metoder.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor  \
 	INSTALLDIRS=vendor
 %{__make}
-%{__make} test
+
+%{?with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
