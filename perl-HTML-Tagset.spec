@@ -66,7 +66,7 @@ gestione di HTML. Non fornisce funzioni né metodi."
 ¤Æ¤¤¤Þ¤¹¡£¤³¤ì¤Ï´Ø¿ô¤ä¥á¥½¥Ã¥É¤òÄó¶¡¤·¤Þ¤»¤ó¡£
 
 %description -l pl
-HTML::Tagset jest modu³em dostarczaj±cym tablic uzytecznych przy
+HTML::Tagset jest modu³em dostarczaj±cym tablic u¿ytecznych przy
 obróbce plików HTML.
 
 %description -l pt
