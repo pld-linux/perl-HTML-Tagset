@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	HTML
 %define	pnam	Tagset
-%include	/usr/lib/rpm/macros.perl
 Summary:	HTML-Tagset perl module
 Summary(pl):	Modu³ perla HTML-Tagset
 Name:		perl-HTML-Tagset
 Version:	3.03
-Release:	4
-
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -24,7 +23,7 @@ HTML-Tagset jest modu³em dostarczaj±cym tablic uzytecznych przy
 obróbce plików HTML.
 
 %prep
-%setup -q -n HTML-Tagset-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
