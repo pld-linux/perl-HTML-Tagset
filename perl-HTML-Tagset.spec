@@ -14,7 +14,7 @@ Summary(fr):	Ce module contient des tables de données pratiques pour travailler 
 Summary(it):	Questo modulo contiene tabelle di dati utili per la gestione di HTML
 Summary(ja):	¤³¤Î¥â¥¸¥å¡¼¥ë¤Ë¤Ï¡¢HTML ¤ò½èÍı¤¹¤ë¤Î¤ËÌòÎ©¤Ä¥Ç¡¼¥¿¥Æ¡¼¥Ö¥ë¤¬¼ıÏ¿¤µ¤ì¤Æ¤¤¤Ş¤¹¡£
 Summary(ko):	ÀÌ ¸ğÁÙÀº HTMLÀ» Ã³¸®ÇÏ´Âµ¥ À¯¿ëÇÑ µ¥ÀÌÅÍ Ç¥µéÀ» Æ÷ÇÔÇÏ°í ÀÖ½À´Ï´Ù
-Summary(pl):	Modu³ perla zawieraj±cy tablice przydatne przy obróbce HTML
+Summary(pl):	Modu³ Perla zawieraj±cy tablice przydatne przy obróbce HTML
 Summary(pt):	Este módulo contém tabelas de dados úteis para lidar com o HTML
 Summary(sv):	Denna modul innehåller datatabeller som är användbara vid hantering av HTML
 Summary(zh_CN):	Õâ¸öÄ£¿é°üÀ¨¶Ô´¦Àí HTML ÓĞÓÃµÄÊı¾±í¡£
