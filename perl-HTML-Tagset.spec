@@ -19,13 +19,13 @@ Summary(pt):	Este módulo contém tabelas de dados úteis para lidar com o HTML
 Summary(sv):	Denna modul innehåller datatabeller som är användbara vid hantering av HTML
 Summary(zh_CN):	Õâ¸öÄ£¿é°üÀ¨¶Ô´¦Àí HTML ÓÐÓÃµÄÊý¾±í¡£
 Name:		perl-HTML-Tagset
-Version:	3.03
-Release:	9
+Version:	3.04
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	47c56ab15771fac1a6fdfcbf8bff4288
+# Source0-md5:	b82e0f08c1ececefe98b891f30dd56a6
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildArch:	noarch
