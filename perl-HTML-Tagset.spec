@@ -16,7 +16,7 @@ Summary(sv):	Denna modul innehåller datatabeller som är användbara vid hantering
 Summary(zh_CN):	Õâ¸öÄ£¿é°üÀ¨¶Ô´¦Àí HTML ÓÐÓÃµÄÊý¾±í¡£
 Name:		perl-HTML-Tagset
 Version:	3.03
-Release:	7
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -77,6 +77,7 @@ metoder.
 
 %build
 %{__perl} Makefile.PL \
+	INSTALLDIRS=vendor  \
 	INSTALLDIRS=vendor 
 %{__make}
 %{__make} test
