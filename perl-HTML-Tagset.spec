@@ -17,7 +17,8 @@ Summary(zh_CN):	Õâ¸öÄ£¿é°üÀ¨¶Ô´¦Àí HTML ÓÐÓÃµÄÊý¾±í¡£
 Name:		perl-HTML-Tagset
 Version:	3.03
 Release:	8
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5: 47c56ab15771fac1a6fdfcbf8bff4288
