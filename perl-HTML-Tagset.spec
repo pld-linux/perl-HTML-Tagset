@@ -20,7 +20,7 @@ Summary(sv):	Denna modul innehåller datatabeller som är användbara vid hantering
 Summary(zh_CN):	Õâ¸öÄ£¿é°üÀ¨¶Ô´¦Àí HTML ÓĞÓÃµÄÊı¾±í¡£
 Name:		perl-HTML-Tagset
 Version:	3.04
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
