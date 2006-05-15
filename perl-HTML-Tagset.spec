@@ -17,7 +17,7 @@ Summary(ko):	ÀÌ ¸ğÁÙÀº HTMLÀ» Ã³¸®ÇÏ´Âµ¥ À¯¿ëÇÑ µ¥ÀÌÅÍ Ç¥µéÀ» Æ÷ÇÔÇÏ°í ÀÖ½À´Ï´Ù
 Summary(pl):	Modu³ Perla zawieraj±cy tablice przydatne przy obróbce HTML
 Summary(pt):	Este módulo contém tabelas de dados úteis para lidar com o HTML
 Summary(sv):	Denna modul innehåller datatabeller som är användbara vid hantering av HTML
-Summary(zh_CN):	Õâ¸öÄ£¿é°üÀ¨¶Ô´¦Àí HTML ÓĞÓÃµÄÊı¾±í¡£
+Summary(zh_CN):	Õâ¸öÄ£¿é°üÀ¨¶Ô´¦Àí HTML ÓĞÓÃµÄÊı¾İ±í¸ñ¡£
 Name:		perl-HTML-Tagset
 Version:	3.10
 Release:	1
@@ -77,6 +77,10 @@ com o HTML. Não fornece funções ou métodos.
 HTML::Tagset - Denna modul innehåller datatabeller som är bra att ha
 när man handskas med HTML. Den tillhandahåller inga funktioner eller
 metoder.
+
+%description -l zh_CN
+¸ÃÄ£¿é°üÀ¨¼¸¸ö¶ÔÖ´ĞĞ¸÷Àà HTML ½âÎö²Ù×÷ÓĞÓÃµÄÊı¾İ±í¸ñ£¬
+Èç±êÇ©ºÍÊµÌåÃû³Æ¡£
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
