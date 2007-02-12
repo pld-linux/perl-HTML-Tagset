@@ -6,18 +6,18 @@
 %define		pdir	HTML
 %define		pnam	Tagset
 Summary:	This module contains data tables useful in dealing with HTML
-Summary(cs):	Modul datovıch tabulek pro práci s HTML
-Summary(da):	Dette modul indeholder datatabeller som er nyttiga ved behandling af HTML
-Summary(de):	Dieses Modul enthält Datentabellen, die bei der Arbeit mit HTML nützlich sind
-Summary(es):	Este módulo contiene tablas de datos útiles para trabajar con HTML
-Summary(fr):	Ce module contient des tables de données pratiques pour travailler avec HTML
-Summary(it):	Questo modulo contiene tabelle di dati utili per la gestione di HTML
-Summary(ja):	¤³¤Î¥â¥¸¥å¡¼¥ë¤Ë¤Ï¡¢HTML ¤ò½èÍı¤¹¤ë¤Î¤ËÌòÎ©¤Ä¥Ç¡¼¥¿¥Æ¡¼¥Ö¥ë¤¬¼ıÏ¿¤µ¤ì¤Æ¤¤¤Ş¤¹¡£
-Summary(ko):	ÀÌ ¸ğÁÙÀº HTMLÀ» Ã³¸®ÇÏ´Âµ¥ À¯¿ëÇÑ µ¥ÀÌÅÍ Ç¥µéÀ» Æ÷ÇÔÇÏ°í ÀÖ½À´Ï´Ù
-Summary(pl):	Modu³ Perla zawieraj±cy tablice przydatne przy obróbce HTML
-Summary(pt):	Este módulo contém tabelas de dados úteis para lidar com o HTML
-Summary(sv):	Denna modul innehåller datatabeller som är användbara vid hantering av HTML
-Summary(zh_CN):	Õâ¸öÄ£¿é°üÀ¨¶Ô´¦Àí HTML ÓĞÓÃµÄÊı¾İ±í¸ñ¡£
+Summary(cs.UTF-8):   Modul datovÃ½ch tabulek pro prÃ¡ci s HTML
+Summary(da.UTF-8):   Dette modul indeholder datatabeller som er nyttiga ved behandling af HTML
+Summary(de.UTF-8):   Dieses Modul enthÃ¤lt Datentabellen, die bei der Arbeit mit HTML nÃ¼tzlich sind
+Summary(es.UTF-8):   Este mÃ³dulo contiene tablas de datos Ãºtiles para trabajar con HTML
+Summary(fr.UTF-8):   Ce module contient des tables de donnÃ©es pratiques pour travailler avec HTML
+Summary(it.UTF-8):   Questo modulo contiene tabelle di dati utili per la gestione di HTML
+Summary(ja.UTF-8):   ã“ã®ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«ã«ã¯ã€HTML ã‚’å‡¦ç†ã™ã‚‹ã®ã«å½¹ç«‹ã¤ãƒ‡ãƒ¼ã‚¿ãƒ†ãƒ¼ãƒ–ãƒ«ãŒåéŒ²ã•ã‚Œã¦ã„ã¾ã™ã€‚
+Summary(ko.UTF-8):   ì´ ëª¨ì¤„ì€ HTMLì„ ì²˜ë¦¬í•˜ëŠ”ë° ìœ ìš©í•œ ë°ì´í„° í‘œë“¤ì„ í¬í•¨í•˜ê³  ìˆìŠµë‹ˆë‹¤
+Summary(pl.UTF-8):   ModuÅ‚ Perla zawierajÄ…cy tablice przydatne przy obrÃ³bce HTML
+Summary(pt.UTF-8):   Este mÃ³dulo contÃ©m tabelas de dados Ãºteis para lidar com o HTML
+Summary(sv.UTF-8):   Denna modul innehÃ¥ller datatabeller som Ã¤r anvÃ¤ndbara vid hantering av HTML
+Summary(zh_CN.UTF-8):   è¿™ä¸ªæ¨¡å—åŒ…æ‹¬å¯¹å¤„ç† HTML æœ‰ç”¨çš„æ•°æ®è¡¨æ ¼ã€‚
 Name:		perl-HTML-Tagset
 Version:	3.10
 Release:	1
@@ -36,52 +36,52 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 HTML::Tagset - This module contains data tables useful in dealing with
 HTML. It provides no functions or methods.
 
-%description -l cs
-Balíèek perl-HTML-Tagset obsahuje datové tabulky, které se pou¾ívají
-pro práci s HTML. Neposkytuje ¾ádné funkce ani metody.
+%description -l cs.UTF-8
+BalÃ­Äek perl-HTML-Tagset obsahuje datovÃ© tabulky, kterÃ© se pouÅ¾Ã­vajÃ­
+pro prÃ¡ci s HTML. Neposkytuje Å¾Ã¡dnÃ© funkce ani metody.
 
-%description -l da
+%description -l da.UTF-8
 HTML::Tagset - Dette modul indeholder datatabeller som er godt at have
-når man handskas HTML. Den tillhandahåller inga funktioner eller
+nÃ¥r man handskas HTML. Den tillhandahÃ¥ller inga funktioner eller
 metoder.
 
-%description -l de
-HTML::Tagset - Dieses Modul enthält Datentabellen, die bei der Arbeit
-mit HTML nützlich sind. Es liefert weder Funktionen noch Methoden.
+%description -l de.UTF-8
+HTML::Tagset - Dieses Modul enthÃ¤lt Datentabellen, die bei der Arbeit
+mit HTML nÃ¼tzlich sind. Es liefert weder Funktionen noch Methoden.
 
-%description -l es
-HTML::Tagset - Este módulo contiene tablas de datos útiles para
-trabajar con HTML. No proporciona ni funciones ni métodos.
+%description -l es.UTF-8
+HTML::Tagset - Este mÃ³dulo contiene tablas de datos Ãºtiles para
+trabajar con HTML. No proporciona ni funciones ni mÃ©todos.
 
-%description -l fr
-HTML::Tagset - Ce module contient des tables de données pratiques
+%description -l fr.UTF-8
+HTML::Tagset - Ce module contient des tables de donnÃ©es pratiques
 lorsque vous travailler avec HTML. Il ne fournit aucune fonction ou
-méthode.
+mÃ©thode.
 
-%description -l it
+%description -l it.UTF-8
 HTML::Tagset - Questo modulo contiene tabelle di dati utili per la
-gestione di HTML. Non fornisce funzioni né metodi."
+gestione di HTML. Non fornisce funzioni nÃ© metodi."
 
-%description -l ja
-¤³¤Î¥â¥¸¥å¡¼¥ë¤Ë¤Ï¡¢HTML ¤ò½èÍı¤¹¤ë¤Î¤ËÌòÎ©¤Ä¥Ç¡¼¥¿¥Æ¡¼¥Ö¥ë¤¬¼ıÏ¿¤µ¤ì
-¤Æ¤¤¤Ş¤¹¡£¤³¤ì¤Ï´Ø¿ô¤ä¥á¥½¥Ã¥É¤òÄó¶¡¤·¤Ş¤»¤ó¡£
+%description -l ja.UTF-8
+ã“ã®ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«ã«ã¯ã€HTML ã‚’å‡¦ç†ã™ã‚‹ã®ã«å½¹ç«‹ã¤ãƒ‡ãƒ¼ã‚¿ãƒ†ãƒ¼ãƒ–ãƒ«ãŒåéŒ²ã•ã‚Œ
+ã¦ã„ã¾ã™ã€‚ã“ã‚Œã¯é–¢æ•°ã‚„ãƒ¡ã‚½ãƒƒãƒ‰ã‚’æä¾›ã—ã¾ã›ã‚“ã€‚
 
-%description -l pl
-HTML::Tagset jest modu³em dostarczaj±cym tablic u¿ytecznych przy
-obróbce plików HTML.
+%description -l pl.UTF-8
+HTML::Tagset jest moduÅ‚em dostarczajÄ…cym tablic uÅ¼ytecznych przy
+obrÃ³bce plikÃ³w HTML.
 
-%description -l pt
-HTML::Tagset - Este módulo contém tabelas de dados úteis para lidar
-com o HTML. Não fornece funções ou métodos.
+%description -l pt.UTF-8
+HTML::Tagset - Este mÃ³dulo contÃ©m tabelas de dados Ãºteis para lidar
+com o HTML. NÃ£o fornece funÃ§Ãµes ou mÃ©todos.
 
-%description -l sv
-HTML::Tagset - Denna modul innehåller datatabeller som är bra att ha
-när man handskas med HTML. Den tillhandahåller inga funktioner eller
+%description -l sv.UTF-8
+HTML::Tagset - Denna modul innehÃ¥ller datatabeller som Ã¤r bra att ha
+nÃ¤r man handskas med HTML. Den tillhandahÃ¥ller inga funktioner eller
 metoder.
 
-%description -l zh_CN
-¸ÃÄ£¿é°üÀ¨¼¸¸ö¶ÔÖ´ĞĞ¸÷Àà HTML ½âÎö²Ù×÷ÓĞÓÃµÄÊı¾İ±í¸ñ£¬
-Èç±êÇ©ºÍÊµÌåÃû³Æ¡£
+%description -l zh_CN.UTF-8
+è¯¥æ¨¡å—åŒ…æ‹¬å‡ ä¸ªå¯¹æ‰§è¡Œå„ç±» HTML è§£ææ“ä½œæœ‰ç”¨çš„æ•°æ®è¡¨æ ¼ï¼Œ
+å¦‚æ ‡ç­¾å’Œå®ä½“åç§°ã€‚
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
