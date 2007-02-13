@@ -6,18 +6,18 @@
 %define		pdir	HTML
 %define		pnam	Tagset
 Summary:	This module contains data tables useful in dealing with HTML
-Summary(cs.UTF-8):   Modul datových tabulek pro práci s HTML
-Summary(da.UTF-8):   Dette modul indeholder datatabeller som er nyttiga ved behandling af HTML
-Summary(de.UTF-8):   Dieses Modul enthält Datentabellen, die bei der Arbeit mit HTML nützlich sind
-Summary(es.UTF-8):   Este módulo contiene tablas de datos útiles para trabajar con HTML
-Summary(fr.UTF-8):   Ce module contient des tables de données pratiques pour travailler avec HTML
-Summary(it.UTF-8):   Questo modulo contiene tabelle di dati utili per la gestione di HTML
-Summary(ja.UTF-8):   このモジュールには、HTML を処理するのに役立つデータテーブルが収録されています。
-Summary(ko.UTF-8):   이 모줄은 HTML을 처리하는데 유용한 데이터 표들을 포함하고 있습니다
-Summary(pl.UTF-8):   Moduł Perla zawierający tablice przydatne przy obróbce HTML
-Summary(pt.UTF-8):   Este módulo contém tabelas de dados úteis para lidar com o HTML
-Summary(sv.UTF-8):   Denna modul innehåller datatabeller som är användbara vid hantering av HTML
-Summary(zh_CN.UTF-8):   这个模块包括对处理 HTML 有用的数据表格。
+Summary(cs.UTF-8):	Modul datových tabulek pro práci s HTML
+Summary(da.UTF-8):	Dette modul indeholder datatabeller som er nyttiga ved behandling af HTML
+Summary(de.UTF-8):	Dieses Modul enthält Datentabellen, die bei der Arbeit mit HTML nützlich sind
+Summary(es.UTF-8):	Este módulo contiene tablas de datos útiles para trabajar con HTML
+Summary(fr.UTF-8):	Ce module contient des tables de données pratiques pour travailler avec HTML
+Summary(it.UTF-8):	Questo modulo contiene tabelle di dati utili per la gestione di HTML
+Summary(ja.UTF-8):	このモジュールには、HTML を処理するのに役立つデータテーブルが収録されています。
+Summary(ko.UTF-8):	이 모줄은 HTML을 처리하는데 유용한 데이터 표들을 포함하고 있습니다
+Summary(pl.UTF-8):	Moduł Perla zawierający tablice przydatne przy obróbce HTML
+Summary(pt.UTF-8):	Este módulo contém tabelas de dados úteis para lidar com o HTML
+Summary(sv.UTF-8):	Denna modul innehåller datatabeller som är användbara vid hantering av HTML
+Summary(zh_CN.UTF-8):	这个模块包括对处理 HTML 有用的数据表格。
 Name:		perl-HTML-Tagset
 Version:	3.10
 Release:	1
