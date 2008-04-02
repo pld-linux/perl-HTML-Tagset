@@ -19,13 +19,13 @@ Summary(pt.UTF-8):	Este módulo contém tabelas de dados úteis para lidar com o
 Summary(sv.UTF-8):	Denna modul innehåller datatabeller som är användbara vid hantering av HTML
 Summary(zh_CN.UTF-8):	这个模块包括对处理 HTML 有用的数据表格。
 Name:		perl-HTML-Tagset
-Version:	3.10
+Version:	3.20
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	89bdd351272ccd285fa61c5b2ce451ab
+# Source0-md5:	d2bfa18fe1904df7f683e96611e87437
 URL:		http://search.cpan.org/dist/HTML-Tagset/
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 1:5.8.0
