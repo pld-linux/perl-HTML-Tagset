@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	HTML
 %define		pnam	Tagset
 Summary:	This module contains data tables useful in dealing with HTML
