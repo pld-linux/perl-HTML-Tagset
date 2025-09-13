@@ -1,6 +1,6 @@
 #
 # Conditional build:
-%bcond_without	tests	# do not perform "make test"
+%bcond_without	tests	# unit tests
 #
 %define		pdir	HTML
 %define		pnam	Tagset
@@ -18,16 +18,21 @@ Summary(pt.UTF-8):	Este módulo contém tabelas de dados úteis para lidar com o
 Summary(sv.UTF-8):	Denna modul innehåller datatabeller som är användbara vid hantering av HTML
 Summary(zh_CN.UTF-8):	这个模块包括对处理 HTML 有用的数据表格。
 Name:		perl-HTML-Tagset
-Version:	3.20
+Version:	3.24
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/HTML/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	d2bfa18fe1904df7f683e96611e87437
-URL:		http://search.cpan.org/dist/HTML-Tagset/
+Source0:	https://www.cpan.org/modules/by-module/HTML/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	f8db8974f5e7fe7df2a58263a7b00552
+URL:		https://metacpan.org/dist/HTML-Tagset
+BuildRequires:	perl-ExtUtils-MakeMaker >= 6.46
+BuildRequires:	perl-devel >= 1:5.10.1
+%if %{with tests}
+BuildRequires:	perl-Test-Simple >= 0.95
+%endif
 BuildRequires:	rpm-perlprov >= 4.1-13
-BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpmbuild(macros) >= 1.745
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -103,6 +108,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc Changes README
+%doc Changes README.md
 %{perl_vendorlib}/HTML/Tagset.pm
-%{_mandir}/man3/*
+%{_mandir}/man3/HTML::Tagset.3pm*
